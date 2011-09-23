@@ -1,0 +1,220 @@
+.dropmenu_container
+{
+	float: left;
+}
+.dropmenu LI
+{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.dropmenu LI A
+{
+	height: 22px;
+	padding: 9px 30px 0px 15px;
+	display: block;
+	cursor: url(point);
+	color: #0E0D0D;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.dropmenu LI SPAN
+{
+	display: block;
+	float: right;
+	height: 10px;
+	width: 10px;
+	background: transparent url(/images/arrow_up.png) repeat-x scroll 0 0;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+}
+.dropmenu LI A:hover SPAN
+{
+	background: transparent url(/images/arrow_hover.png) repeat-x scroll 0 0;
+}
+.dropmenu LI:hover UL, .dropmenu LI:hover DIV
+{
+	display: block;
+}
+.dropmenu UL
+{
+	position: absolute;
+	display: none;
+	width: 140px;
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+	background: #FFFFFF url(/images/gradient.png) repeat-x scroll 0 0;
+}
+.dropmenu UL LI
+{
+	border: 0;
+	float: none;
+}
+.dropmenu UL A
+{
+	border: 1px solid #CCC;
+	border-bottom: 0;
+	white-space: nowrap;
+	display: block;
+	color: #0657AD;
+	text-decoration: underline;
+	text-transform: none;
+}
+.dropmenu A.selected SPAN
+{
+	background: transparent url(/images/arrow_hover.png) repeat-x scroll 0 0;
+}
+.dropmenu UL A:hover
+{
+	color: #F67A00 !important;
+	text-decoration: none;
+	background-color: #F0F0F0;
+	background-image: none;
+}
+.dropmenu DIV UL
+{
+	position: relative;
+	display: block;
+}
+.dropmenu LI DIV
+{
+	background: #FFFFFF url(/images/gradient.png) repeat-x scroll 0 0;
+	border: 1px solid #CCC;
+	padding: 5px;
+	display: none;
+	position: absolute;
+}
+.dropmenu LI DIV UL
+{
+	border: none;
+	background: none;
+	position: relative !important;
+}
+.dropmenu LI DIV A
+{
+	border: none;
+	border-bottom: 1px solid #CCC;
+}
+.dropmenu LI DIV DIV
+{
+	display: block;
+	position: relative;
+	background: none;
+	border: none;
+}
+.dropmenu LI DIV DIV A
+{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.dropmenu LI DIV DIV A:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+.dropmenu UL.left
+{
+	float: left;
+	width: 145px;
+}
+.dropmenu UL.right
+{
+	float: right;
+	width: 145px;
+}
+.dropmenu .small
+{
+	color: #666;
+	font-size: 10px;
+	padding: 10px 5px 8px !important;
+	display: block;
+	clear: both;
+}
+.dropmenu .products
+{
+	width: 300px;
+	padding: 15px !important;
+	z-index: 9999;
+}
+.products UL
+{
+	width: 100%;
+}
+.products UL LI
+{
+	border-bottom: 1px solid #CCC;
+	height: 40px;
+	padding: 10px 0px;
+}
+.products H2
+{
+	font-size: 16px;
+	padding: 2px 0px 3px;
+	margin: 0px;
+}
+.products P
+{
+	color: #666;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+.products IMG
+{
+	float: left;
+	padding-right: 10px;
+}
+.products UL LI A
+{
+	display: inline;
+	border: none;
+	color: #666;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	text-transform: none;
+}
+.products UL LI A:hover
+{
+	color: #000 !important;
+	text-decoration: none;
+	background: none !important;
+}
+.dropmenu .tutorials
+{
+	width: 300px;
+}
+.dropmenu .login
+{
+	padding: 15px !important;
+	width: 180px;
+}
+.dropmenu INPUT
+{
+	border: 1px solid #4A779D;
+	padding: 3px 8px;
+	margin-bottom: 8px;
+	width: 164px;
+}
+.dropmenu LABEL
+{
+	padding: 0px 0px 4px;
+	display: block;
+}
+.dropmenu BUTTON
+{
+	background: #4A779D url(/images/navigation.png) repeat-x scroll 0 0;
+	color: #FFF;
+	border: 1px solid #4A779D;
+	padding: 4px 10px;
+	width: 180px;
+}

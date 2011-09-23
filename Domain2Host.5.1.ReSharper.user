@@ -1,0 +1,62 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:HomeController.cs" caret="263" fromTop="11" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Scripts/f:dropmenu.js" caret="5859" fromTop="45" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:Site.css" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:style.css" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16827" fromTop="17" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="4743" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="23" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="1364" fromTop="13" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="1" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="22" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="12" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="11" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="4015" fromTop="22" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="26" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="19" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="23" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="31" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="16" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:style.css" caret="3929" fromTop="2" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:style.css" caret="3929" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:style.css" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="10714" fromTop="34" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="738" fromTop="10" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="1831" fromTop="6" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:ex2.css" caret="16832" fromTop="17" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="4838" fromTop="15" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="9196" fromTop="12" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="2653" fromTop="19" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="2955" fromTop="19" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="3258" fromTop="18" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="3560" fromTop="18" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="3863" fromTop="19" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="4162" fromTop="17" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:index.html" caret="4203" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
