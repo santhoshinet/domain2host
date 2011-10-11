@@ -15,6 +15,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,36 +36,52 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Web.WebPages" />
-    <Reference Include="System.Web.Helpers" />
+    <Reference Include="ResellerClubAPI">
+      <HintPath>..\..\ResellerClubAPI\ResellerClubAPI\ResellerClubAPI\bin\Debug\ResellerClubAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Abstractions" />
-    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DomainController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\ex2.css" />
@@ -77,25 +94,52 @@
     <Content Include="Images\236872.jpg" />
     <Content Include="Images\242177.jpg" />
     <Content Include="Images\242702.jpg" />
+    <Content Include="Images\all-icon.png" />
     <Content Include="Images\arrow_hover.png" />
     <Content Include="Images\arrow_up.png" />
     <Content Include="Images\banner.png" />
     <Content Include="Images\bg-brown.jpg" />
     <Content Include="Images\bg-feature-groups-8.png" />
     <Content Include="Images\bg-feature-sites-8.png" />
+    <Content Include="Images\bg-footer.jpg" />
+    <Content Include="Images\bg-footer.png" />
     <Content Include="Images\bg-gray.jpg" />
+    <Content Include="Images\bg-grey-shadow.gif" />
+    <Content Include="Images\bg-nav-hover.gif" />
+    <Content Include="Images\bg-one-pixel.gif" />
+    <Content Include="Images\bg-pricing-nav.png" />
+    <Content Include="Images\bg-selling-option-nav.png" />
+    <Content Include="Images\bg-slab-shadow.gif" />
     <Content Include="Images\bg-yellow.jpg" />
+    <Content Include="Images\brandlogo.png" />
+    <Content Include="Images\clear.gif" />
     <Content Include="Images\divider-bottom.png" />
     <Content Include="Images\DomainRegistration.gif" />
+    <Content Include="Images\footer-card-logo.jpg" />
     <Content Include="Images\gradient.png" />
+    <Content Include="Images\header-bg.gif" />
+    <Content Include="Images\header-bg.jpg" />
+    <Content Include="Images\home-product-bg.gif" />
+    <Content Include="Images\home-repeat-bg.jpg" />
+    <Content Include="Images\home-repeat-bg.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\menu-2nd-level-hover.gif" />
     <Content Include="Images\navigation.png" />
     <Content Include="Images\pitch_arrow.png" />
-    <Content Include="index.html" />
+    <Content Include="Images\searchnow.jpg" />
+    <Content Include="Images\seclinks-sep.gif" />
+    <Content Include="Images\viewall.jpg" />
+    <Content Include="Index.htm" />
+    <Content Include="index1.html" />
     <Content Include="Scripts\1modernizr-1.5.min.js" />
     <Content Include="Scripts\5795038.js" />
     <Content Include="Scripts\dropmenu.js" />
+    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\install.js" />
     <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\JQValidation.js" />
+    <Content Include="Views\Domain\DomainChecking.aspx" />
+    <Content Include="Views\Shared\SearchBox.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

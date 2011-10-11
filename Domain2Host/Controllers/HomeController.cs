@@ -6,9 +6,7 @@ namespace Domain2Host.Controllers
     {
         public ActionResult Index()
         {
-            ViewModel.Message = "Welcome to ASP.NET MVC!";
-
-            return View();
+            return Redirect(Url.Content("~/index.htm"));
         }
 
         public ActionResult About()

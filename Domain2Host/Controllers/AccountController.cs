@@ -1,27 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Security.Principal;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
-using System.Web.Security;
 using Domain2Host.Models;
+using ResellerClubAPI;
 
 namespace Domain2Host.Controllers
 {
     public class AccountController : Controller
     {
-
         public IFormsAuthenticationService FormsService { get; set; }
-        public IMembershipService MembershipService { get; set; }
 
         protected override void Initialize(RequestContext requestContext)
         {
             if (FormsService == null) { FormsService = new FormsAuthenticationService(); }
-            if (MembershipService == null) { MembershipService = new AccountMembershipService(); }
-
             base.Initialize(requestContext);
         }
 
@@ -39,22 +29,21 @@ namespace Domain2Host.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (MembershipService.ValidateUser(model.UserName, model.Password))
+                var du = new DomainUtilities(Utilities.ResellerId, Utilities.Resellerpassword);
+                var result = du.SearchUser(model.Email);
+                FormsService.SignIn(model.Email, model.RememberMe);
+                if (Url.IsLocalUrl(returnUrl))
                 {
-                    FormsService.SignIn(model.UserName, model.RememberMe);
-                    if (Url.IsLocalUrl(returnUrl))
-                    {
-                        return Redirect(returnUrl);
-                    }
-                    else
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
+                    return Redirect(returnUrl);
                 }
                 else
                 {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                    return RedirectToAction("Index", "Home");
                 }
+                /*else
+                {
+                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                } */
             }
 
             // If we got this far, something failed, redisplay form
@@ -78,7 +67,7 @@ namespace Domain2Host.Controllers
 
         public ActionResult Register()
         {
-            ViewModel.PasswordLength = MembershipService.MinPasswordLength;
+            ViewModel.PasswordLength = 6;
             return View();
         }
 
@@ -87,22 +76,12 @@ namespace Domain2Host.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Attempt to register the user
-                MembershipCreateStatus createStatus = MembershipService.CreateUser(model.UserName, model.Password, model.Email);
-
-                if (createStatus == MembershipCreateStatus.Success)
-                {
-                    FormsService.SignIn(model.UserName, false /* createPersistentCookie */);
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", AccountValidation.ErrorCodeToString(createStatus));
-                }
+                FormsService.SignIn(model.Email, false /* createPersistentCookie */);
+                return RedirectToAction("Index", "Home");
+                //    ModelState.AddModelError("", AccountValidation.ErrorCodeToString(createStatus));
             }
-
             // If we got this far, something failed, redisplay form
-            ViewModel.PasswordLength = MembershipService.MinPasswordLength;
+            ViewModel.PasswordLength = 6;
             return View(model);
         }
 
@@ -113,7 +92,7 @@ namespace Domain2Host.Controllers
         [Authorize]
         public ActionResult ChangePassword()
         {
-            ViewModel.PasswordLength = MembershipService.MinPasswordLength;
+            ViewModel.PasswordLength = 6;
             return View();
         }
 
@@ -123,18 +102,11 @@ namespace Domain2Host.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (MembershipService.ChangePassword(User.Identity.Name, model.OldPassword, model.NewPassword))
-                {
-                    return RedirectToAction("ChangePasswordSuccess");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "The current password is incorrect or the new password is invalid.");
-                }
+                return RedirectToAction("ChangePasswordSuccess");
+                //    ModelState.AddModelError("", "The current password is incorrect or the new password is invalid.");
             }
-
             // If we got this far, something failed, redisplay form
-            ViewModel.PasswordLength = MembershipService.MinPasswordLength;
+            ViewModel.PasswordLength = 6;
             return View(model);
         }
 
@@ -146,6 +118,5 @@ namespace Domain2Host.Controllers
         {
             return View();
         }
-
     }
 }

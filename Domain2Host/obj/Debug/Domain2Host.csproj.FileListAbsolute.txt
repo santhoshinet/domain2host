@@ -3,3 +3,12 @@ C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\Domain2Host.pd
 C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\obj\Debug\Domain2Host.dll
 C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\obj\Debug\Domain2Host.pdb
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\ResellerClubAPI.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\ResellerClubAPI.pdb
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Abstractions.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Helpers.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Mvc.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Routing.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Mvc.xml
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.WebPages.dll
+C:\Users\Santhosh\Desktop\MyWorks\D2H\Domain2Host\Domain2Host\bin\System.Web.Services.dll

@@ -1,3 +1,6 @@
 <Modules>
   <Module PersistentId="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85" ModuleId="Domain2Host" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="ResellerClubAPI" />
+  <Module PersistentId="A1706140-2270-47D3-ABB5-5EB6BE775081" ModuleId="ConsoleApplication1" />
+  <Module PersistentId="404BB091-2E8D-4320-8557-76228F3CD93E" ModuleId="ResellerClubAPI_1" />
 </Modules>

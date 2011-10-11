@@ -1,46 +1,151 @@
 ﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
 
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head runat="server">
-    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
-    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
-    <%--
-    <script src="<%: Url.Content("~/Scripts/jquery-1.4.1.min.js") %>" type="text/javascript"></script>
-    <script src="<%: Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js") %>" type="text/javascript"></script>
-    <script src="<%: Url.Content("~/Scripts/jquery.validate.min.js") %>" type="text/javascript"></script>
-    <script src="<%: Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js") %>" type="text/javascript"></script>
-    --%>
+<head>
+    <title>
+        <asp:ContentPlaceHolder ID="PageTitle" runat="server" />
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" media="all" href="/content/style.css" />
+    <style type="text/css">
+<!--
+.style1 {font-size: 9px}
+-->
+</style>
+    <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
 </head>
-
-<body>
-    <div class="page">
-
-        <div id="header">
-            <div id="title">
-                <h1>My MVC Application</h1>
+<body id="home">
+    <!-- Header -->
+    <div id="header">
+        <!-- Secondary -->
+        <div class="seclinks wrp">
+            <div class="contact lflot">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call
+                Us: +91 9841334433</div>
+            <ul class="menu">
+                <li class="leaf first active-trail"><a href="index.html" title="Domain Registration"
+                    class="active">Home</a></li>
+                <li class="leaf"><a href="Aboutus.html" title="Domain Registration About Us">About us</a></li>
+                <li class="leaf"><a href="Enquiry.html" title="Domain Registration Enquiry">Enquiry</a></li>
+                <li class="leaf"><a href="Support.html" title="Domain Registration Support">Support</a></li>
+                <li class="leaf"><a href="Payment-Methods.html" title="Domain Registration Payment Methods">
+                    Payment Methods</a></li>
+                <li class="leaf last"><a href="Contact.html" title="Domain Registration Contact Us">
+                    Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Secondary -->
+        <div class="wrp">
+            <!-- Primary -->
+            <div class="prilinks">
+                <div class="logo lfloat">
+                    <a href="/index.html">Domain2host</a></div>
+                <div id="nav" class="rfloat">
+                    <ul>
+                        <li class="selling-opt-link">
+                            <h2>
+                                <a href="#"><span class="nav-link">Domain Registartion</span><span class="nav-link-help">Availability</span></a></h2>
+                            <div id="selling-nav" class="nav-level-2">
+                                <ul>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-cp"></span>New Domain Registration<span
+                                        class="nav-note"> <span>Single Interface to Buy & Manage</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-supersite"></span>Transfer
+                                        Domain <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-certificates"></span>Whois
+                                        Lookup <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-sitebuilder"></span>Domain
+                                        Price List <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li class="last"><a href="#" class="links-title"><span class="icon-nav-api"></span>Free
+                                        Services <span class="nav-note"><span>Standards based HTTP API</span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-pricing"><a href="pricing.html"><span class="nav-link">Web Hosting</span><span
+                            class="nav-link-help">Industry Best Prices</span></a>
+                            <div id="pricing-nav-2" class="nav-level-2">
+                                <ul>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-diy"></span>View Plans<span
+                                        class="nav-note"> <span>Single Interface to Buy & Manage</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-infra"></span>Security <span
+                                        class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-automa"></span>24X7 Monitoring
+                                        <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-support"></span>Backup and Recovery
+                                        <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li class="last"><a href="#" class="links-title"><span class="icon-domian"></span>Datacenter
+                                        Details <span class="nav-note"><span>Standards based HTTP API</span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-pricing"><a href="pricing.html"><span class="nav-link">Web Design</span><span
+                            class="nav-link-help">Industry Best Prices</span></a>
+                            <div id="pricing-nav" class="nav-level-2">
+                                <ul>
+                                    <li><a href="#" class="links-title"><span class="icon-hosting"></span>Yourself Website
+                                        Builder<span class="nav-note"> <span>Single Interface to Buy & Manage</span></span></a></li>
+                                    <li class="last"><a href="#" class="links-title"><span class="icon-email"></span>Build–It–For–Me
+                                        Website Design <span class="nav-note"><span>Standards based HTTP API</span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-pricing"><a href="pricing.html"><span class="nav-link">Login</span><span
+                            class="nav-link-help">Industry Best Prices</span></a>
+                            <div id="pricing-nav-3" class="nav-level-2">
+                                <ul>
+                                    <li><a href="#" class="links-title"><span class="icon-diy"></span>Login Customer<span
+                                        class="nav-note"> <span>Single Interface to Buy & Manage</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-makemysite"></span>Signup New
+                                        Customer <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li><a href="#" class="links-title"><span class="icon-nav-prices"></span>Reseller Hosting
+                                        <span class="nav-note"><span>Ready to Use Storefront</span></span></a></li>
+                                    <li class="last"><a href="#" class="links-title"><span class="icon-nav-promos"></span>
+                                        Reseller Linux <span class="nav-note"><span>Standards based HTTP API</span></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-              
-            <div id="logindisplay">
-                <% Html.RenderPartial("LogOnUserControl"); %>
-            </div> 
-            
-            <div id="menucontainer">
-            
-                <ul id="menu">              
-                    <li><%: Html.ActionLink("Home", "Index", "Home")%></li>
-                    <li><%: Html.ActionLink("About", "About", "Home")%></li>
-                </ul>
-            
+            <!-- /Primary -->
+        </div>
+    </div>
+    <!-- /Header -->
+    <!-- Masthead -->
+    <div id="masthead">
+        <div class="bg-repeat">
+            <div class="wrp">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             </div>
         </div>
-
-        <div id="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-
-            <div id="footer">
+    </div>
+    <!-- /Masthead -->
+    <!-- Main -->
+    <div id="main">
+    </div>
+    <!-- /Main -->
+    <!-- Footer -->
+    <div id="footer" class="clear">
+        <div class="wrp">
+            <div class="rfloat">
+                <a href="#">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> | <a href="#">&nbsp;&nbsp;&nbsp;About
+                    Us&nbsp;&nbsp;</a> | <a href="#">
             </div>
+            <p>
+                <a href="#">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> | <a href="#">&nbsp;&nbsp;&nbsp;About
+                    Us&nbsp;&nbsp;</a> | <a href="#">&nbsp;&nbsp;&nbsp;Enquiry&nbsp;&nbsp;</a> |
+                <a href="#">&nbsp;&nbsp;&nbsp;Support&nbsp;&nbsp;</a> | <a href="#">&nbsp;&nbsp;&nbsp;Payment
+                    Methods&nbsp;&nbsp;</a> | <a href="#">&nbsp;&nbsp;&nbsp;Contact Us</a><br />
+                <br />
+                <br />
+                &copy; 2011 domain2host. All rights Reserved.</p>
         </div>
     </div>
 </body>
 </html>
+<!-- scripts at bottom for speed loading the page -->
+<script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
