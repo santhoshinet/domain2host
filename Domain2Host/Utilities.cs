@@ -38,5 +38,14 @@ namespace Domain2Host
                                                         {"biz", "RS 100/-"},
                                                         {"ind.in", "RS 100/-"},
                                                     };
+
+        public static bool DevelopmentMode = true;
+    }
+
+    public struct Domaindetails
+    {
+        public string Name { get; set; }
+
+        public string Extension { get; set; }
     }
 }

@@ -116,18 +116,16 @@
     </div>
     <!-- /Header -->
     <!-- Masthead -->
-    <div id="masthead">
-        <div class="bg-repeat">
-            <div class="wrp">
-                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-            </div>
+    <div class="content_placeholder">
+        <div class="content_holder">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
         </div>
     </div>
-    <!-- /Masthead -->
-    <!-- Main -->
-    <div id="main">
+    <div class="strip_holder">
+        <a href="#">
+        <img src="/images/brandlogo.png" hspace="10" alt="Services"></a>
     </div>
-    <!-- /Main -->
+    <!-- /Masthead -->
     <!-- Footer -->
     <div id="footer" class="clear">
         <div class="wrp">
@@ -148,4 +146,4 @@
 </body>
 </html>
 <!-- scripts at bottom for speed loading the page -->
-<script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+<script src="/Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>

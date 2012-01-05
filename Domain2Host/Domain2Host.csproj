@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\ex2.css" />
+    <Content Include="Content\style2.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\203708.jpg" />
@@ -111,6 +112,7 @@
     <Content Include="Images\bg-selling-option-nav.png" />
     <Content Include="Images\bg-slab-shadow.gif" />
     <Content Include="Images\bg-yellow.jpg" />
+    <Content Include="Images\bottom-bg.png" />
     <Content Include="Images\brandlogo.png" />
     <Content Include="Images\clear.gif" />
     <Content Include="Images\divider-bottom.png" />
@@ -124,13 +126,15 @@
     <Content Include="Images\home-repeat-bg.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\menu-2nd-level-hover.gif" />
+    <Content Include="Images\middle-bg.jpg" />
     <Content Include="Images\navigation.png" />
     <Content Include="Images\pitch_arrow.png" />
+    <Content Include="Images\please-wait.gif" />
     <Content Include="Images\searchnow.jpg" />
     <Content Include="Images\seclinks-sep.gif" />
+    <Content Include="Images\top-bg.png" />
     <Content Include="Images\viewall.jpg" />
     <Content Include="Index.htm" />
-    <Content Include="index1.html" />
     <Content Include="Scripts\1modernizr-1.5.min.js" />
     <Content Include="Scripts\5795038.js" />
     <Content Include="Scripts\dropmenu.js" />
@@ -138,7 +142,15 @@
     <Content Include="Scripts\install.js" />
     <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\JQValidation.js" />
+    <Content Include="Scripts\state_list.js" />
+    <Content Include="Views\Account\LogOnorRegister.aspx" />
+    <Content Include="Views\Domain\Cart.aspx" />
+    <Content Include="Views\Domain\Domain.aspx" />
     <Content Include="Views\Domain\DomainChecking.aspx" />
+    <Content Include="Views\Domain\Hosting.aspx" />
+    <Content Include="Views\Domain\HostingPlan.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\RegisterUserControl.ascx" />
     <Content Include="Views\Shared\SearchBox.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -164,14 +176,10 @@
     <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.js" />
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
-    <Content Include="Views\Account\ChangePassword.aspx" />
-    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
     <Content Include="Views\Account\LogOn.aspx" />
     <Content Include="Views\Account\Register.aspx" />
-    <Content Include="Views\Home\About.aspx" />
-    <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
-    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\AccountInfoUserControl.ascx" />
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
   </ItemGroup>

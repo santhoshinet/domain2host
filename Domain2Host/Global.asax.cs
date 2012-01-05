@@ -22,6 +22,21 @@ namespace Domain2Host
                 new { controller = "Domain", action = "DomainChecking" } // Parameter defaults
             );
             routes.MapRoute(
+                "login", // Route name
+                "Login", // URL with parameters
+                new { controller = "Account", action = "LogOn" } // Parameter defaults
+            );
+            routes.MapRoute(
+                "logon", // Route name
+                "Logon", // URL with parameters
+                new { controller = "Account", action = "LogOn" } // Parameter defaults
+            );
+            routes.MapRoute(
+                "register", // Route name
+                "Register", // URL with parameters
+                new { controller = "Account", action = "Register" } // Parameter defaults
+            );
+            routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults

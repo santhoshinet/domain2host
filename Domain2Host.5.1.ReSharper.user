@@ -9,15 +9,61 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Global.asax.cs" caret="572" fromTop="17" />
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:HomeController.cs" caret="216" fromTop="8" />
-      <File id="A1706140-2270-47D3-ABB5-5EB6BE775081/f:Program.cs" caret="576" fromTop="16" />
+      <File id="A1706140-2270-47D3-ABB5-5EB6BE775081/f:Program.cs" caret="309" fromTop="12" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Content/f:style.css" caret="70667" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Global.asax.cs" caret="1481" fromTop="36" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Scripts/f:state_list.js" caret="746" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Models/f:AccountModels.cs" caret="2507" fromTop="21" />
+      <File id="404BB091-2E8D-4320-8557-76228F3CD93E/f:DomainUtilities.cs" caret="4124" fromTop="16" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:DomainChecking.aspx" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Shared/f:SearchBox.ascx" caret="1172" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Shared/f:Site.Master" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Shared/f:AccountInfoUserControl.ascx" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Account/f:Register.aspx" caret="385" fromTop="6" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Account/f:LogOn.aspx" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Account/f:LogOnorRegister.aspx" caret="373" fromTop="7" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Shared/f:LogOnUserControl.ascx" caret="103" fromTop="1" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Shared/f:RegisterUserControl.ascx" caret="106" fromTop="1" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:HostingPlan.aspx" caret="868" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Hosting.aspx" caret="5263" fromTop="12" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="8768" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:HomeController.cs" caret="238" fromTop="10" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:AccountController.cs" caret="3015" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Utilities.cs" caret="2651" fromTop="49" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Domain.aspx" caret="0" fromTop="0" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="3225" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Global.asax.cs" caret="586" fromTop="21" />
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Global.asax.cs" caret="574" fromTop="18" />
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Global.asax.cs" caret="1179" fromTop="28" />
-      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:HomeController.cs" caret="216" fromTop="8" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="41" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="20" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="6369" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Hosting.aspx" caret="5561" fromTop="18" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="17" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="7047" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10978" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="8420" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Views/d:Domain/f:Cart.aspx" caret="10218" fromTop="42" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:HomeController.cs" caret="233" fromTop="9" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="7308" fromTop="30" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Utilities.cs" caret="2513" fromTop="32" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/f:Utilities.cs" caret="2649" fromTop="37" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="4411" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="4411" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="4411" fromTop="28" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="2741" fromTop="3" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="268" fromTop="6" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="3186" fromTop="12" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="3995" fromTop="21" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="3995" fromTop="18" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="3537" fromTop="14" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="4292" fromTop="22" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="2435" fromTop="23" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="4532" fromTop="33" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="5300" fromTop="43" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="6271" fromTop="42" />
+      <File id="C2AB8301-87E0-4EE1-82D9-BCF2082EAA85/d:Controllers/f:DomainController.cs" caret="7235" fromTop="43" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -33,47 +79,73 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="string" priority="7" />
-      <Item value="if" priority="0" />
+      <Item value="string" priority="16" />
+      <Item value="if" priority="7" />
       <Item value="domainName" priority="1" />
-      <Item value="domains" priority="1" />
+      <Item value="domains" priority="5" />
       <Item value="Response" priority="1" />
-      <Item value="return" priority="4" />
+      <Item value="return" priority="11" />
       <Item value="null" priority="1" />
-      <Item value="public" priority="5" />
-      <Item value="static" priority="0" />
-      <Item value="Utilities`0" priority="0" />
+      <Item value="public" priority="8" />
+      <Item value="static" priority="1" />
+      <Item value="Utilities`0" priority="2" />
       <Item value="List" priority="1" />
-      <Item value="new" priority="1" />
+      <Item value="new" priority="4" />
       <Item value="List&lt;string&gt;" priority="0" />
-      <Item value="foreach" priority="1" />
+      <Item value="foreach" priority="3" />
       <Item value="dms" priority="0" />
-      <Item value="ViewData" priority="1" />
+      <Item value="ViewData" priority="2" />
       <Item value="String`0" priority="0" />
-      <Item value="var" priority="1" />
-      <Item value="domain" priority="3" />
+      <Item value="var" priority="2" />
+      <Item value="domain" priority="9" />
       <Item value="Hashtable" priority="0" />
       <Item value="struct" priority="0" />
-      <Item value="Domaindetails`0" priority="0" />
-      <Item value="availablelist" priority="2" />
+      <Item value="Domaindetails`0" priority="1" />
+      <Item value="availablelist" priority="3" />
       <Item value="suggestionlist" priority="0" />
-      <Item value="ActionResult`0" priority="0" />
+      <Item value="ActionResult`0" priority="3" />
       <Item value="Render`0" priority="0" />
-      <Item value="Html" priority="0" />
+      <Item value="Html" priority="3" />
       <Item value="SearchBox" priority="0" />
       <Item value="DataType" priority="0" />
       <Item value="DataType`0" priority="0" />
       <Item value="Display" priority="0" />
-      <Item value="Name" priority="0" />
+      <Item value="Name" priority="2" />
       <Item value="Required" priority="0" />
-      <Item value="false" priority="0" />
-      <Item value="du" priority="0" />
-      <Item value="model" priority="0" />
-      <Item value="Redirect`0" priority="0" />
+      <Item value="false" priority="2" />
+      <Item value="du" priority="1" />
+      <Item value="model" priority="13" />
+      <Item value="Redirect`0" priority="2" />
       <Item value="Url" priority="0" />
+      <Item value="DomainUtilities`0" priority="0" />
+      <Item value="result" priority="1" />
+      <Item value="View`0" priority="2" />
+      <Item value="User" priority="0" />
+      <Item value="bool" priority="1" />
+      <Item value="else" priority="2" />
+      <Item value="Domaindetails" priority="1" />
+      <Item value="Extension" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="LogOn" priority="1" />
+      <Item value="LogOnUserControl" priority="0" />
+      <Item value="RegisterUserControl" priority="0" />
+      <Item value="orRegister" priority="0" />
+      <Item value="UserControl" priority="1" />
+      <Item value="HttpGet" priority="2" />
+      <Item value="try" priority="1" />
+      <Item value="selectedDomains" priority="3" />
+      <Item value="Session" priority="0" />
+      <Item value="Domain`0" priority="1" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="POST" priority="0" />
+      <Item value="submit" priority="0" />
+      <Item value="ViewContext`0" priority="0" />
+      <Item value="Action`0" priority="0" />
+      <Item value="HttpPost" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="IsNullOrEmpty`0" priority="1" />
+      <Item value="IsNullOrEmpty`0" priority="2" />
+      <Item value="Empty" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.HttpResponseBase">
       <Item value="Redirect`0" priority="1" />
@@ -83,47 +155,70 @@
       <Item value="Resellerpassword" priority="0" />
       <Item value="DomainAmounts" priority="1" />
       <Item value="DomainStrikeouts" priority="0" />
+      <Item value="DevelopmentMode" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
-      <Item value="Split`0" priority="0" />
+      <Item value="Split`0" priority="2" />
+      <Item value="Substring`0" priority="1" />
+      <Item value="IndexOf`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Add`0" priority="0" />
+      <Item value="Add`0" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain2Host.Controllers.Domaindetails">
       <Item value="Name" priority="0" />
       <Item value="Extension" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
-      <Item value="RenderPartial`0" priority="0" />
+      <Item value="RenderPartial`0" priority="4" />
       <Item value="TextBoxFor`2" priority="0" />
       <Item value="TextAreaFor`2" priority="0" />
+      <Item value="RenderAction`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
-      <Item value="Text" priority="2" />
+      <Item value="Text" priority="3" />
       <Item value="MultilineText" priority="0" />
       <Item value="PhoneNumber" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain2Host.Models.RegisterModel">
-      <Item value="Company" priority="0" />
-      <Item value="Address" priority="2" />
-      <Item value="City" priority="0" />
-      <Item value="State" priority="2" />
-      <Item value="Country" priority="2" />
-      <Item value="Zip" priority="0" />
-      <Item value="PhoneCc" priority="0" />
-      <Item value="Mobile" priority="0" />
-      <Item value="Email" priority="3" />
+      <Item value="Company" priority="1" />
+      <Item value="Address" priority="3" />
+      <Item value="City" priority="1" />
+      <Item value="State" priority="3" />
+      <Item value="Country" priority="3" />
+      <Item value="Zip" priority="1" />
+      <Item value="PhoneCc" priority="1" />
+      <Item value="Mobile" priority="1" />
+      <Item value="Email" priority="4" />
+      <Item value="Password" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="Address1" priority="3" />
+      <Item value="Address2" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ResellerClubAPI.DomainUtilities">
       <Item value="SearchUser`0" priority="0" />
+      <Item value="LogIn`0" priority="0" />
+      <Item value="SignUp`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Domain2Host.Models.LogOnModel">
       <Item value="UserName" priority="1" />
       <Item value="Email" priority="1" />
+      <Item value="Password" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
       <Item value="Content`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ResellerClubAPI.DomainUtilities">
+      <Item value="GetPublicIp`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="IsAuthenticated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="2" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

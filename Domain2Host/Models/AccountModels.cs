@@ -47,8 +47,13 @@ namespace Domain2Host.Models
     public class RegisterModel
     {
         [Required]
-        [DataType(DataType.EmailAddress)]
+        [DataType(DataType.Text)]
         [Display(Name = "User name")]
+        public string Name { get; set; }
+
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
         [Required]
@@ -64,13 +69,18 @@ namespace Domain2Host.Models
 
         [Required]
         [DataType(DataType.Text)]
-        [Display(Name = "Compnay")]
+        [Display(Name = "Company")]
         public string Company { get; set; }
 
         [Required]
         [DataType(DataType.MultilineText)]
-        [Display(Name = "Address")]
-        public string Address { get; set; }
+        [Display(Name = "Address 1")]
+        public string Address1 { get; set; }
+
+        [Required]
+        [DataType(DataType.MultilineText)]
+        [Display(Name = "Address 2")]
+        public string Address2 { get; set; }
 
         [Required]
         [DataType(DataType.Text)]

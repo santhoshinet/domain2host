@@ -10,7 +10,11 @@
                 alert("Please select any domain extension to search");
             else {
                 var domain = $('#txtdomainsearchbox').val();
-                $('body').html("<span style='color:BLACK' >please wait..............</span>");
+                $('#footer').hide();
+                $('#main').hide();
+                $('#header').hide();
+                $('#masthead').hide();
+                var html = $('#TblPleaseWait').show();
                 window.location = "/DomainChecking/" + domain + "/" + domains;
             }
         }

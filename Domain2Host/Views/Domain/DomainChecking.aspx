@@ -2,9 +2,10 @@
 
 <%@ Import Namespace="Domain2Host" %>
 <%@ Import Namespace="Domain2Host.Controllers" %>
-<asp:Content ID="Page_title" ContentPlaceHolderID="PageTitle" runat="server"> Domain name cheking </asp:Content>
+<asp:Content ID="Page_title" ContentPlaceHolderID="PageTitle" runat="server">
+    Domain name cheking
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <form method="post" runat="server" action="/Domain/AddtoCart">

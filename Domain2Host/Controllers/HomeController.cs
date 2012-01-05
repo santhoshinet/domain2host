@@ -8,10 +8,5 @@ namespace Domain2Host.Controllers
         {
             return Redirect(Url.Content("~/index.htm"));
         }
-
-        public ActionResult About()
-        {
-            return View();
-        }
     }
 }
